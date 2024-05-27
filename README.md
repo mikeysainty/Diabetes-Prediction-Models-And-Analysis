@@ -1,29 +1,31 @@
-## Diabetes Prediction Models and Analysis
+# Diabetes Prediction Models and Analysis
 
-This repository contains a Jupyter notebook for predicting the likelihood of diabetes using various machine learning models. The [dataset] (https://www.kaggle.com/datasets/nanditapore/healthcare-diabetes) used includes health-related attributes, and the notebook demonstrates data preprocessing, exploratory data analysis, model development, evaluation, and hyperparameter tuning.
+This repository contains a Jupyter notebook for predicting the likelihood of diabetes using various machine learning models. The [dataset](https://www.kaggle.com/datasets/nanditapore/healthcare-diabetes) used includes health-related attributes, and the notebook demonstrates data preprocessing, exploratory data analysis, model development, evaluation, and hyperparameter tuning.
 
 ## Features
 
-- **Data Loading and Preprocessing:**
-  - Loading the dataset from a CSV file.
-  - Handling missing values and feature scaling.
-  
-- **Exploratory Data Analysis (EDA):**
-  - Summary statistics and data visualization.
-  - Correlation analysis and distribution plots.
+### Data Loading and Preprocessing
+- **Loading the dataset:** Loading the dataset from a CSV file.
+- **Handling missing values:** Handling any missing values and scaling the features appropriately.
 
-- **Model Development:**
-  - Implementation of Logistic Regression, Decision Tree, and Random Forest models.
-  - Model training and evaluation using accuracy, precision, recall, F1-score, and ROC AUC.
+### Exploratory Data Analysis (EDA)
+- **Summary statistics:** Generating summary statistics for the dataset.
+- **Data visualization:** Creating visualizations to understand the data distribution and relationships.
+- **Correlation analysis:** Analyzing correlations between different features.
 
-- **Hyperparameter Tuning:**
-  - Using GridSearchCV to optimize the hyperparameters of the Random Forest model.
-  - Evaluation of the best-tuned model.
+### Model Development
+- **Logistic Regression:** Implementing and evaluating a Logistic Regression model.
+- **Decision Tree:** Implementing and evaluating a Decision Tree model.
+- **Random Forest:** Implementing and evaluating a Random Forest model.
+- **Model evaluation:** Using accuracy, precision, recall, F1-score, and ROC AUC for model evaluation.
+
+### Hyperparameter Tuning
+- **GridSearchCV:** Using GridSearchCV to optimize the hyperparameters of the Random Forest model.
+- **Best model evaluation:** Evaluating the best-tuned Random Forest model.
 
 ## Dataset
 
 The dataset used in this project includes the following health-related attributes:
-
 - **Id:** Unique identifier for each data entry.
 - **Pregnancies:** Number of times pregnant.
 - **Glucose:** Plasma glucose concentration over 2 hours in an oral glucose tolerance test.
