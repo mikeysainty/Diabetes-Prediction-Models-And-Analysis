@@ -1,4 +1,4 @@
-echo "# Diabetes Prediction Models and Analysis
+## Diabetes Prediction Models and Analysis
 
 This repository contains a Jupyter notebook for predicting the likelihood of diabetes using various machine learning models. The dataset used includes health-related attributes, and the notebook demonstrates data preprocessing, exploratory data analysis, model development, evaluation, and hyperparameter tuning.
 
@@ -34,36 +34,6 @@ The dataset used in this project includes the following health-related attribute
 - **DiabetesPedigreeFunction:** Diabetes pedigree function, a genetic score of diabetes.
 - **Age:** Age in years.
 - **Outcome:** Binary classification indicating the presence (1) or absence (0) of diabetes.
-
-## Getting Started
-
-To get started with this project, follow these steps:
-
-1. **Clone the repository:**
-   \`\`\`sh
-   git clone https://github.com/mikeysainty/diabetes-prediction-models-and-analysis.git
-   cd diabetes-prediction-models-and-analysis
-   \`\`\`
-
-2. **Install required dependencies:**
-   \`\`\`sh
-   pip install -r requirements.txt
-   \`\`\`
-
-3. **Run the Jupyter notebook:**
-   \`\`\`sh
-   jupyter notebook Diabetes_Prediction.ipynb
-   \`\`\`
-
-## Requirements
-
-- Python 3.6 or higher
-- Jupyter Notebook
-- Required Python packages (specified in \`requirements.txt\`)
-
-## Usage
-
-The notebook includes detailed comments and explanations for each step. You can run the notebook cells sequentially to perform data loading, preprocessing, model training, and evaluation.
 
 ## Results
 
