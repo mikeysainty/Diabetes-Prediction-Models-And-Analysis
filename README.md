@@ -47,7 +47,3 @@ The best performing model is a Random Forest with the following metrics:
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a pull request or open an issue for any bugs, feature requests, or improvements.
-
-## License
-
-This project is licensed under the MIT License. See the \`LICENSE\` file for more details." >> README.md
