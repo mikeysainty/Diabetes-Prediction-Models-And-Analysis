@@ -1,6 +1,6 @@
 ## Diabetes Prediction Models and Analysis
 
-This repository contains a Jupyter notebook for predicting the likelihood of diabetes using various machine learning models. The dataset used includes health-related attributes, and the notebook demonstrates data preprocessing, exploratory data analysis, model development, evaluation, and hyperparameter tuning.
+This repository contains a Jupyter notebook for predicting the likelihood of diabetes using various machine learning models. The [dataset] (https://www.kaggle.com/datasets/nanditapore/healthcare-diabetes) used includes health-related attributes, and the notebook demonstrates data preprocessing, exploratory data analysis, model development, evaluation, and hyperparameter tuning.
 
 ## Features
 
